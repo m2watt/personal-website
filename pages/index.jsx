@@ -18,10 +18,10 @@ const home = () => {
 			<h2>Currently in second year of Computer Science major and looking for opportunities to {"\n"}
 			gain experience in web development.</h2>
 			<Link href='#schoolprojects'>
-			<svg class="arrows">
-							<path class="a1" d="M0 0 L30 32 L60 0"></path>
-							<path class="a2" d="M0 20 L30 52 L60 20"></path>
-							<path class="a3" d="M0 40 L30 72 L60 40"></path>
+			<svg className="arrows">
+							<path className="a1" d="M0 0 L30 32 L60 0"></path>
+							<path className="a2" d="M0 20 L30 52 L60 20"></path>
+							<path className="a3" d="M0 40 L30 72 L60 40"></path>
 						</svg>
 			</Link>
 		</div>
@@ -128,7 +128,7 @@ const home = () => {
 			</div>
 			<div className="container">
 				<div className="circle" data-aos={"zoom-in"}>
-					<a href="https://www.linkedin.com/in/maryum-r-57918b229" target="_blank">
+					<a href="https://www.linkedin.com/in/maryum-r-57918b229" target="_blank" rel="noreferrer">
 					<FaLinkedin className="contactIcon"/>
 					</a>
 					<text>
@@ -163,7 +163,7 @@ const home = () => {
 				<text style={{'font-size':'30px'}}>MARYUM RAINA</text>
 			</div>
 			<div className="container" style={{'justify-content':'center'}}>
-				<a href="https://www.linkedin.com/in/maryum-r-57918b229" target="_blank">
+				<a href="https://www.linkedin.com/in/maryum-r-57918b229" target="_blank" rel="noreferrer">
 					<FaLinkedin className="tinyIcon"/>
 				</a>
 				<a href="mailto:maryum.r707@gmail.com">
