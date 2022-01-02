@@ -19,6 +19,7 @@ const home = () => {
 			<h1 id="h1"> Hi, I am Maryum</h1>
 			<h2>Currently in second year of Computer Science major and looking for opportunities to {"\n"}
 			gain experience in web development.</h2>
+			<svg width="100px" height="100px">
 			<Link href='#schoolprojects'>
 			<svg className="arrows">
 							<path className="a1" d="M0 0 L30 32 L60 0"></path>
@@ -26,6 +27,7 @@ const home = () => {
 							<path className="a3" d="M0 40 L30 72 L60 40"></path>
 						</svg>
 			</Link>
+			</svg>
 		</div>
 		<div className="projects" id="schoolprojects"> 
 			
@@ -40,14 +42,14 @@ const home = () => {
 					<div className="info">
 					<text className="title2">Game: Meepo Was Here </text>
 					<pre className="info">
-					Game made with python using Object Oriented Programming for the player and blocks.{"\n"}
+					<pre className="bold">Description:</pre> Game made with python using Object Oriented Programming for the player and blocks.{"\n"}
 					{"\n"}
-					Key Concepts: Object Oriented Programming, Stacks, Polymorphism{"\n"}
+					<pre className="bold">Key Concepts:</pre> Object Oriented Programming, Stacks, Polymorphism{"\n"}
 					{"\n"}
-					Assigned Task: Implement undo method using stack. Define class behaviours using correct principles of OOP.
+					<pre className="bold">Assigned Task:</pre> Implement undo method using stack. Define class behaviours using correct principles of OOP.
 					Constantly read board and update the rules of the game while checking if the game is over.{"\n"}
 					{"\n"}
-					Language:Python
+					<pre className="bold">Language:</pre> Python
 					</pre>
 					</div>
 				</div>
@@ -61,16 +63,16 @@ const home = () => {
 				<div className="info">
 				<text className="title2">Image Compression/Decompressor</text>
 				<pre className="info">
-				Description: Compresses image given a specific loss level between 0 and 255. Capable of mirroring 
+				<pre className="bold">Description:</pre> Compresses image given a specific loss level between 0 and 255. Capable of mirroring 
 				images if specified. Decompresses images given the name of a.qdt file. Uses QuadTree children to 
 				represent pixels and preorder traversal to serialize QuadTree.{"\n"}
 				{"\n"}
-				Key Concepts: QuadTrees (Trees with exactly 4 children), Tree traversal {"\n"}
+				<pre className="bold">Key Concepts:</pre> QuadTrees (Trees with exactly 4 children), Tree traversal {"\n"}
 				{"\n"}
-				Assigned Task: Construct QuadTrees that represent the maximum loss of an image. Serialize and deserialize 
+				<pre className="bold">Assigned Task:</pre> Construct QuadTrees that represent the maximum loss of an image. Serialize and deserialize 
 				image using preorder traversals.{"\n"}
 				{"\n"}
-				Language: Python{"\n"}
+				<pre className="bold">Language:</pre> Python{"\n"}
 				</pre>
 				</div>
 				</div>
@@ -83,17 +85,17 @@ const home = () => {
 				<div className="info">
 				<text className="title2">Three Musketeers Game</text>
 				<pre className="info">
-				Description: Three Musketeers board game created with full GUI. Can load board from a given file 
+				<pre className="bold">Description:</pre> Three Musketeers board game created with full GUI. Can load board from a given file 
 				and save game to a file. Evaluates the score of the board and uses score to decide {"\n"}
 				move for computer player.{"\n"}
 				{"\n"}
-				Key Concepts: JavaFX, Event Handling and User Input {"\n"}
+				<pre className="bold">Key Concepts:</pre> JavaFX, Event Handling and User Input {"\n"}
 				{"\n"}
-				Assigned Task: Handle user input according to which side is currently playing their turn {"\n"}
+				<pre className="bold">Assigned Task:</pre> Handle user input according to which side is currently playing their turn {"\n"}
 				(Musketeer or Guard) and update GUI depending on if the player is making their move or has {"\n"}
 				already made their move.{"\n"}
 				{"\n"}
-				Language: Python {"\n"}
+				<pre className="bold">Language:</pre> Python {"\n"}
 				</pre>
 				</div>
 				</div>
@@ -111,13 +113,13 @@ const home = () => {
 				<div className="info">
 				<text className="title2">Random Book Generator</text>
 				<pre className="info">
-				Description: Random Book Generator that generates a random book after the user picks a genre.{"\n"}
+				<pre className="bold">Description:</pre> Random Book Generator that generates a random book after the user picks a genre.{"\n"}
 				Also allows you to search up books and add them to your library after you create an account.{"\n"}
 				Uses the Google Books API and Django framework.{"\n"}
 				{"\n"}
-				Key Concepts: Django, HTML, CSS, APIs {"\n"}
+				<pre className="bold">Key Concepts:</pre> Django, HTML, CSS, APIs {"\n"}
 				{"\n"}
-				Language: Python, Javascript{"\n"}
+				<pre className="bold">Language:</pre> Python, Javascript{"\n"}
 				</pre>
 				</div>
 				</div>
