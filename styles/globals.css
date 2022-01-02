@@ -1,6 +1,5 @@
 html{
 	max-width:100%;
-	position:relaative;
 	scroll-behavior: smooth;
 	animation-name:animate__bounce;
 	
@@ -26,6 +25,7 @@ h2{
 img{
 	width: 500px;
 	height: 400px;
+	max-width:100%;
 }
 
 body {

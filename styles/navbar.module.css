@@ -3,6 +3,7 @@
 	height: 60px;
 	padding: 0px 10px;
 	display: flex;
+	max-width:100%;
 	align-items:center;
 }
 
