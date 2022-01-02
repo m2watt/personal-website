@@ -13,7 +13,9 @@ const home = () => {
 	return (
 		
 		<div>
+		
 		<div className="name">
+		
 			<h1 id="h1"> Hi, I am Maryum</h1>
 			<h2>Currently in second year of Computer Science major and looking for opportunities to {"\n"}
 			gain experience in web development.</h2>
@@ -33,7 +35,7 @@ const home = () => {
 			<div id="MeepoWasHere" className="Project" data-aos={"fade-up"}>
 				<div className="container">
 					<div className='projscreenshot'>
-					<img src={'/MeepoWasHere.png'} width = '500' height = '400'/>
+					<img src={'/MeepoWasHere.png'}/>
 					</div>
 					<div className="info">
 					<text className="title2">Game: Meepo Was Here </text>
@@ -54,7 +56,7 @@ const home = () => {
 			<div id="QuadTreeCompression" className="Project" data-aos={"fade-up"}>
 				<div className="container">
 				<div className='projscreenshot'>
-				<img src={'/QuadTreeCompression.png'} width = '500' height = '400'/>
+				<img src={'/QuadTreeCompression.png'}/>
 				</div>
 				<div className="info">
 				<text className="title2">Image Compression/Decompressor</text>
@@ -76,7 +78,7 @@ const home = () => {
 			<div id="ThreeMusketeers" className="Project" data-aos={"fade-up"}>
 				<div className="container">
 				<div className='projscreenshot'>
-				<img src={'/ThreeMusketeers.png'} width = '500' height = '400'/>
+				<img src={'/ThreeMusketeers.png'}/>
 				</div>
 				<div className="info">
 				<text className="title2">Three Musketeers Game</text>
@@ -104,7 +106,7 @@ const home = () => {
 			<div id="RandomBookGenerator" className="Project" data-aos={"fade-up"}>
 				<div className="container">
 				<div className='projscreenshot'>
-				<img src={'/RandomBookGenerator.png'} width = '500' height = '400'/>
+				<img src={'/RandomBookGenerator.png'}/>
 				</div>
 				<div className="info">
 				<text className="title2">Random Book Generator</text>
