@@ -5,7 +5,7 @@ const NavBar = () => {
 	<Link href="">
 		<a className={styles.logolink}>MARYUM RAINA</a>
 	</Link>
-	<Link href="Maryum Raina Resume.docx" download>
+	<Link href="Maryum Raina Resume.pdf" download>
 		<a className = "hover-underline-animation">Resume </a> 
 	</Link>
 	<Link href="#schoolprojects">

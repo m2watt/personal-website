@@ -148,7 +148,7 @@ const home = () => {
 					</text>
 				</div>
 				<div className="circle" data-aos={"zoom-in"}>
-					<a href="Maryum Raina Resume.docx" download>
+					<a href="Maryum Raina Resume.pdf" download>
 					<FiDownload className="contactIcon"/>
 					</a>
 					<text>
@@ -173,7 +173,7 @@ const home = () => {
 				<a href="mailto:maryum.r707@gmail.com">
 					<FiMail className="tinyIcon"/>
 				</a>
-				<a href="Maryum Raina Resume.docx" download>
+				<a href="Maryum Raina Resume.pdf" download>
 					<FiDownload className="tinyIcon"/>
 				</a>
 			</div>
