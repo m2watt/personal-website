@@ -191,7 +191,7 @@ const home = () => {
 				<text className="title2">myShell</text>
 				<pre className="info">
 				<pre className="bold">Description:</pre> A shell is a computer program that allows users to access system resources{"\n"}
-				and interact with the computer's operating systems through a command line interface. myShell borrows it syntax from Bash, {"\n"}
+				and interact with the computer&apos;s operating systems through a command line interface. myShell borrows it syntax from Bash, {"\n"}
 				a Unix shell created by Brian Fox and first released in 1989.
 				<pre className="bold">Key Concepts:</pre>  Dynamic memory allocation, low-level memory management, fork and pipe system calls {"\n"}
 				{"\n"}
@@ -214,7 +214,7 @@ const home = () => {
 		<div style={{'display': 'flex', 'flexDirection': 'column'}} data-aos={"fade-up"}>
 			<div style={{'display': 'flex', 'flexDirection': 'row', 'marginBottom':'10%'}}>
 				<img src="awardIcon.png" style={{'height': '100px', 'width': '100px', 'marginRight':'10%'}}></img>
-				<div>Dean's List Scholar<br></br>
+				<div>Dean&apos;s List Scholar<br></br>
 				This designation is given at the end of the Fall/Winter session and/or Summer Session to Faculty of Arts Science degree
 				students who complete their fifth, tenth, fifteenth, or twentieth degree credits in the Faculty and obtain a Cumulative
 				Grade Point Average of 3.50 or higher
