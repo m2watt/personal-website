@@ -250,7 +250,7 @@ const home = () => {
 					</div>
 				</div>
 				<div className="circle" data-aos={"zoom-in"}>
-					<a href="Maryum Raina Resume.pdf" download>
+					<a href="Maryum_Raina_Resume_2022.pdf" download>
 					<FiDownload className="contactIcon"/>
 					</a>
 					<div>

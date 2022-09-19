@@ -17,7 +17,7 @@ const NavBar = () => {
 	<Link href="#contact">
     	<a className = "hover-underline-animation">Contact </a> 
     </Link>
-	<Link href="Maryum Raina Resume.pdf" download>
+	<Link href="Maryum_Raina_Resume_2022.pdf" download>
 		<a className = "hover-underline-animation">Resume </a> 
 	</Link>
 	</nav>;
